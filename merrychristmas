@@ -1,8 +1,4 @@
-install.packages("ggplot2")
-install.packages("ggforce")
-install.packages("dplyr")
-install.packages("sf")
-
+install.packages(c("ggplot2", "ggforce", "dplyr", "sf"))
 library(ggplot2)
 library(ggforce)
 library(dplyr)
