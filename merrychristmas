@@ -50,5 +50,3 @@ s8 <- s7 + geom_sf(data = nose, fill = "orange", colour = "orange") +
 s9 <- s8 + annotate(geom = "text", x = 0.5, y = 0.07,
     label = "Merry Christmas", colour = "red3",
     family = "mono", fontface = "bold", size = 7)
-
-s9
